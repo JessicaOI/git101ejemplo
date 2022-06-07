@@ -1,0 +1,16 @@
+SERVICE_NAME =
+	(DESCRIPTION = 
+		(ADDRESS_LIST =
+			(ADDRESS =
+				(COMMUNITY = tcp.world)
+				(PROTOCOL = TCP)
+				(Host = localhost)
+				(Port = 1521)
+			)
+		)
+	)
+	
+	(CONNECT_DATA = (SID = SERVICE_NAME))
+				
+
+)
